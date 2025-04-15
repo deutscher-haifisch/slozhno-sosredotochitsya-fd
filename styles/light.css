@@ -9,6 +9,41 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --accent-color: #ff8dcb;
+  --additional-color: #ffeef6;
+  --main-text-color: #353430;
+  --chapter-text-color: var(--main-text-color);
+  --title-text-color: var(--main-text-color);
+  --bg-image: url("../images/cover-image-light.png");
+  --header-title-color: #ffc2e6;
+}
+
+.theme-light .header_rec,
+.theme-light .footer::before,
+.theme-light .footer::after {
+  display: none;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    /* сохраните этот селектор в приведённом виде.
+      Так стили написанные ниже будут иметь больший вес,
+      чем стили в медиазапросе предпочтений пользователя
+    */
+    --accent-color: #ff8dcb;
+    --additional-color: #ffeef6;
+    --main-text-color: #353430;
+    --chapter-text-color: var(--main-text-color);
+    --title-text-color: var(--main-text-color);
+    --bg-image: url("../images/cover-image-light.png");
+    --header-title-color: #ffc2e6;
+  }
+  
+  .header_rec,
+  .footer::before,
+  .footer::after {
+    display: none;
+  }
 }
 
 .theme-light .page {
