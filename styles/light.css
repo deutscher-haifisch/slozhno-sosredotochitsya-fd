@@ -16,11 +16,10 @@
   --title-text-color: var(--main-text-color);
   --bg-image: url("../images/cover-image-light.png");
   --header-title-color: #ffc2e6;
+  --hover-color: rgb(50 49 45 / 0.4);
 }
 
-.theme-light .header_rec,
-.theme-light .footer::before,
-.theme-light .footer::after {
+.theme-light .header_rec {
   display: none;
 }
 
@@ -37,11 +36,10 @@
     --title-text-color: var(--main-text-color);
     --bg-image: url("../images/cover-image-light.png");
     --header-title-color: #ffc2e6;
+    --hover-color: rgb(50 49 45 / 0.4);
   }
   
-  .header_rec,
-  .footer::before,
-  .footer::after {
+  .header_rec {
     display: none;
   }
 }
