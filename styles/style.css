@@ -274,6 +274,9 @@ button:focus {
   .street {
     grid-area: street;
   }
+  .footer {
+    margin-top: 0;
+  }
   .footer::before {
     top: 20px;
     right: 20px;
